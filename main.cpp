@@ -1,5 +1,3 @@
-// Lab_2.cpp: определяет точку входа для консольного приложения.
-//
 
 #include <windows.h>
 #include <cmath>
@@ -9,7 +7,7 @@
 
 #define PI 3.14159265
 
-using namespace std;
+using namespace std;//плохая практика, но так проще писать
 
 void drawCube1()
 {
